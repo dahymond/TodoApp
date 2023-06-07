@@ -11,6 +11,6 @@ def home(request):
     # print(tasks)
     context =  {
         'tasks': tasks,
-        'completed': completed
+        'completed': completed,
     }
     return render(request, 'home.html', context)
